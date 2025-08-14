@@ -34,14 +34,14 @@ const IntroSection = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col ite sm:flex-row gap-4 pt-4">
               <a
                 href="/files/Justin_Dimaandal_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-3 bg-gray-900 text-white rounded-lg font-medium transition-all duration-300 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-4 focus:ring-gray-300"
               >
-                <span className="flex items-center gap-2">
+                <span className="flex items-center justify-center gap-2 w-full">
                   View My Resume
                     <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -53,7 +53,9 @@ const IntroSection = () => {
                 href="mailto:justindimaandal.work@gmail.com"
                 className="px-8 py-3 border-2 border-gray-300 text-gray-700 rounded-lg font-medium transition-all duration-300 hover:border-gray-900 hover:text-gray-900 hover:shadow-md hover:-translate-y-0.5 focus:outline-none focus:ring-4 focus:ring-gray-200"
               >
-                Get In Touch
+                <span className="flex items-center justify-center w-full">
+                  Get In Touch
+                </span>
               </a>
 
             </div>
@@ -105,8 +107,8 @@ const IntroSection = () => {
         
         @keyframes float {
           0%, 100% { transform: rotate(-6deg) translateY(0px); }
-          50% { transform: rotate(-6deg) translateY(-10px); }
-        }
+          50% { transform: rotate(-6deg) translateY(-4px); } 
+        }        
         
         @keyframes float-delayed {
           0%, 100% { transform: rotate(6deg) translateY(0px); }
