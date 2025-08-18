@@ -5,7 +5,7 @@ const Experience = () => {
     position: "IT Intern",
     company: "Mitsubishi Power Philippines Inc.",
     duration: "January 28, 2025 – May 9, 2025",
-    location: "Philippines",
+    location: "AG & P Special Economic Zone, Brgy. Bauan, Batangas, Philippines",
     description: "Designed and implemented digital forms for the Finance Department using Microsoft SharePoint and PowerApps, streamlining processes for CATAF requests and Disposal Applications.",
     technologies: ["Microsoft PowerApps", "Microsoft SharePoint"],
     type: "Internship"
@@ -35,7 +35,7 @@ const Experience = () => {
               <h3 className="text-2xl font-bold text-slate-900 mb-1">
                 {experience.position}
               </h3>
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex items-center gap-2 mb-3 ">
                 <span className="text-lg font-semibold text-slate-700">
                   {experience.company}
                 </span>
@@ -61,7 +61,7 @@ const Experience = () => {
 
           {/* Description */}
           <div className="mb-6">
-            <p className="text-slate-700 leading-relaxed">
+            <p className="text-slate-700 leading-relaxed text-justify">
               {experience.description}
             </p>
           </div>
